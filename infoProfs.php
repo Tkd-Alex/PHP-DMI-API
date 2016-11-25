@@ -36,7 +36,7 @@ if (!is_null($results)) {
   }
 }
 
-//$links = array_slice($links, 0, 5); 
+$links = array_slice($links, 0, 5); 
 //print_r($links);
 curl_close($ch);
 
@@ -61,9 +61,9 @@ foreach ($links as $link){
 	$dom->loadHTML($html);
 
 	$xpath = new DOMXPath($dom);
-	$infoDocente = $xpath->query("//div[@id='anagrafica']/node() | //div[@id='anagrafica']//a/@href");
+	$infoDocente = $xpath->query("//div[@id='anagrafica']/node() | //div[@id='anagrafica']//a[not(starts-with(@href, 'mailto'))]/@href");
 	$name = $xpath->query("//h1[@class='pagetitle']");  
-	$mail = $xpath->query("//a[starts-with(@href, 'mailto')]");
+	$mail = $xpath->query("//div[@id='anagrafica']//a[starts-with(@href, 'mailto')]");
 
 	$label = array();
 	$prof = new stdClass();
@@ -89,7 +89,7 @@ foreach ($links as $link){
 	    	
 	    	if($node->nodeName == '#text')
 	    		if($node->nodeValue != ": " && $node->nodeValue != " ")
-    		    	$prof->{end($label)} = trim(str_replace(':', '', $node->nodeValue));
+				$prof->{end($label)} = trim(trim($node->nodeValue,':'));
 	    
     	}
 	  }
