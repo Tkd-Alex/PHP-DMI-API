@@ -1,24 +1,28 @@
 
 <?php
 
+function getDom($link){
+  libxml_use_internal_errors(true);
+
+  // crea una nuova risorsa cURL
+  $ch = curl_init();
+
+  // imposta l'URL e altre opzioni appropriate
+  curl_setopt($ch, CURLOPT_URL, $link);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+  // recupera l'URL e lo passa al browser
+  $html = curl_exec($ch);
+
+  $dom = new DOMDocument;
+  $dom->loadHTML($html);
+
+  return $dom;
+}
+
 $link = "http://web.dmi.unict.it/Didattica/Laurea%20Triennale%20in%20Informatica%20L-31/Calendario%20delle%20Lezioni";
 
-libxml_use_internal_errors(true);
-
-// crea una nuova risorsa cURL
-$ch = curl_init();
-
-// imposta l'URL e altre opzioni appropriate
-curl_setopt($ch, CURLOPT_URL, $link);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-// recupera l'URL e lo passa al browser
-$html = curl_exec($ch);
-
-$dom = new DOMDocument;
-$dom->loadHTML($html);
-
-$xpath = new DOMXPath($dom);
+$xpath = new DOMXPath(getDom($link));
 $results = $xpath->query("//tr");
 
 //init array

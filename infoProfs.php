@@ -36,7 +36,7 @@ if (!is_null($results)) {
   }
 }
 
-$links = array_slice($links, 0, 5); 
+//$links = array_slice($links, 0, 5); 
 //print_r($links);
 curl_close($ch);
 
