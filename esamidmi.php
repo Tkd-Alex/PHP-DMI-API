@@ -8,21 +8,21 @@
   $results = $xpath->query("//table[1]/tbody/tr");
 
   $array = array();
-  $labels = ["prima","prima1","seconda","seconda1","terza","terza1","straordinaria","straordinaria1"];
+  $session = [];
+  $labels = ["prima","seconda","terza","straordinaria"];
+  //$labels = ["prima","prima1","seconda","seconda1","terza","terza1","straordinaria","straordinaria1"];
   $currentYear = "Primo anno";
 
   if (!is_null($results)) {
     foreach ($results as $element) {
 
       $singleObject = [];
-      $session = [];
       $indexLabel = 0;
 
       $nodes = $element->childNodes;
       foreach ($nodes as $node) {
 
           if($node->nodeType == 1){
-            //print_r($node);
             if (strpos(strtolower($node->nodeValue),'anno') !== false)
               $currentYear = $node->nodeValue;
             else{
@@ -52,8 +52,29 @@
                 }
               }
               else{
-                $singleObject[$labels[$indexLabel]] = trim(str_replace("\t","", $node->nodeValue), chr(0xC2).chr(0xA0));
-                $indexLabel++;
+
+                //$singleObject[$labels[$indexLabel]] = trim(str_replace("\t","", $node->nodeValue), chr(0xC2).chr(0xA0));
+                if(sizeof($session) > 1){
+                  $singleObject[$labels[$indexLabel]] = $session;
+                  $indexLabel++;
+                  $session = [];
+                }
+                //if(sizeof($session) > 1) print_r($session);
+                //if(sizeof($session) > 1) $session = [];
+                array_push($session, trim( str_replace("\t","", $node->nodeValue) , chr(0xC2).chr(0xA0) ) );
+                //$indexLabel++;
+
+
+                //echo "Session size: ".sizeof($session)."\n";
+
+                /*if(sizeof($session) < 1){
+                  array_push($session, trim( str_replace("\t","", $node->nodeValue) , chr(0xC2).chr(0xA0) ) );
+                }else{
+                  $singleObject[$labels[$indexLabel]] = $session;
+                  $indexLabel++;
+                  $session = [];
+                }*/
+
               }
             }
           }

@@ -1,397 +1,633 @@
 {
     "status": {
         "length": 30,
-        "lastupdate": "2017-03-01 17:08:45"
+        "lastupdate": "2017-03-01 17:48:49"
     },
     "items": [
         {
             "insegnamento": "Programmazione 1",
             "docenti": "Cincotti,Pavone,Faro",
-            "prima": "31\/01\/2017",
-            "prima1": "21\/02\/2017",
-            "seconda": "13\/06\/2017",
-            "seconda1": "03\/07\/2017",
-            "terza": "12\/09\/2017",
-            "terza1": "03\/10\/2017",
-            "straordinaria": "04\/04\/2017",
-            "straordinaria1": "19\/12\/2017",
+            "prima": [
+                "31\/01\/2017",
+                "21\/02\/2017"
+            ],
+            "seconda": [
+                "13\/06\/2017",
+                "03\/07\/2017"
+            ],
+            "terza": [
+                "12\/09\/2017",
+                "03\/10\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Programmazione 2",
             "docenti": "Catalano,Faro,Bella",
-            "prima": "08\/02\/2017",
-            "prima1": "28\/02\/2017",
-            "seconda": "23\/06\/2017",
-            "seconda1": "11\/07\/2017",
-            "terza": "14\/09\/2017",
-            "terza1": "28\/09\/2017",
-            "straordinaria": "08\/05\/2017",
-            "straordinaria1": "14\/12\/2017",
+            "prima": [
+                "04\/04\/2017",
+                "19\/12\/2017"
+            ],
+            "seconda": [
+                "08\/02\/2017",
+                "28\/02\/2017"
+            ],
+            "terza": [
+                "23\/06\/2017",
+                "11\/07\/2017"
+            ],
+            "straordinaria": [
+                "14\/09\/2017",
+                "28\/09\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Fondamenti di Informatica",
             "docenti": "Barbanera,Madonia,Riccobene",
-            "prima": "01\/02\/2017",
-            "prima1": "02\/03\/2017",
-            "seconda": "14\/06\/2017",
-            "seconda1": "04\/07\/2017",
-            "terza": "18\/09\/2017",
-            "terza1": "05\/10\/2017",
-            "straordinaria": "25\/11\/2017",
-            "straordinaria1": "12\/12\/2017",
+            "prima": [
+                "08\/05\/2017",
+                "14\/12\/2017"
+            ],
+            "seconda": [
+                "01\/02\/2017",
+                "02\/03\/2017"
+            ],
+            "terza": [
+                "14\/06\/2017",
+                "04\/07\/2017"
+            ],
+            "straordinaria": [
+                "18\/09\/2017",
+                "05\/10\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Elementi di Analisi matematica 1",
             "docenti": "Ragusa,Milici,Cirmi",
-            "prima": "",
-            "prima1": "",
-            "seconda": "12\/06\/2017",
-            "seconda1": "03\/07\/2017",
-            "terza": "15\/09\/2017",
-            "terza1": "04\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "25\/11\/2017",
+                "12\/12\/2017"
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "12\/06\/2017",
+                "03\/07\/2017"
+            ],
+            "straordinaria": [
+                "15\/09\/2017",
+                "04\/10\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Matematica Discreta",
             "docenti": "Milici,Cutello,Gionfriddo",
-            "prima": "30\/\/01\/2017",
-            "prima1": "17\/02\/2017",
-            "seconda": "28\/06\/2017",
-            "seconda1": "19\/07\/2017",
-            "terza": "06\/09\/2017",
-            "terza1": "27\/09\/2017",
-            "straordinaria": "21\/04\/2017",
-            "straordinaria1": "15\/12\/2017",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "30\/\/01\/2017",
+                "17\/02\/2017"
+            ],
+            "terza": [
+                "28\/06\/2017",
+                "19\/07\/2017"
+            ],
+            "straordinaria": [
+                "06\/09\/2017",
+                "27\/09\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Architettura degli elaboratori",
             "docenti": "Scollo,Barbanera ,Madonia",
-            "prima": "06\/02\/2017",
-            "prima1": "27\/02\/207",
-            "seconda": "03\/07\/2017",
-            "seconda1": "18\/07\/2017",
-            "terza": "13\/09\/2017",
-            "terza1": "02\/10\/2017",
-            "straordinaria": "12\/04\/2017",
-            "straordinaria1": "06\/12\/2017",
+            "prima": [
+                "21\/04\/2017",
+                "15\/12\/2017"
+            ],
+            "seconda": [
+                "06\/02\/2017",
+                "27\/02\/207"
+            ],
+            "terza": [
+                "03\/07\/2017",
+                "18\/07\/2017"
+            ],
+            "straordinaria": [
+                "13\/09\/2017",
+                "02\/10\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Inglese",
             "docenti": "Saitta,Riccobene,Battiato",
-            "prima": "09\/02\/2017",
-            "prima1": "01\/03\/2017",
-            "seconda": "21\/06\/2017",
-            "seconda1": "12\/07\/2017",
-            "terza": "11\/09\/2017",
-            "terza1": "25\/09\/2017",
-            "straordinaria": "17\/05\/2017",
-            "straordinaria1": "13\/11\/2017",
+            "prima": [
+                "12\/04\/2017",
+                "06\/12\/2017"
+            ],
+            "seconda": [
+                "09\/02\/2017",
+                "01\/03\/2017"
+            ],
+            "terza": [
+                "21\/06\/2017",
+                "12\/07\/2017"
+            ],
+            "straordinaria": [
+                "11\/09\/2017",
+                "25\/09\/2017"
+            ],
             "anno": "Primo anno"
         },
         {
             "insegnamento": "Algoritmi",
             "docenti": "Cantone,Faro,Nicolosi,Cincotti,Gallo",
-            "prima": "07\/02\/2017",
-            "prima1": "03\/03\/2017",
-            "seconda": "14\/06\/2017",
-            "seconda1": "07\/07\/2017",
-            "terza": "12\/09\/207",
-            "terza1": "28\/09\/2017",
-            "straordinaria": "08\/05\/2017",
-            "straordinaria1": "11\/12\/2017",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "07\/02\/2017",
+                "03\/03\/2017"
+            ],
+            "terza": [
+                "14\/06\/2017",
+                "07\/07\/2017"
+            ],
+            "straordinaria": [
+                "12\/09\/207",
+                "28\/09\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Interazione Multimedia",
             "docenti": "Stanco,Gallo,Battiato",
-            "prima": "09\/02\/2017",
-            "prima1": "02\/03\/2017",
-            "seconda": "20\/06\/2017",
-            "seconda1": "25\/07\/2017",
-            "terza": "05\/09\/2017",
-            "terza1": "03\/10\/2017",
-            "straordinaria": "05\/05\/2017",
-            "straordinaria1": "14\/12\/2017",
+            "prima": [
+                "08\/05\/2017",
+                "11\/12\/2017"
+            ],
+            "seconda": [
+                "09\/02\/2017",
+                "02\/03\/2017"
+            ],
+            "terza": [
+                "20\/06\/2017",
+                "25\/07\/2017"
+            ],
+            "straordinaria": [
+                "05\/09\/2017",
+                "03\/10\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Basi di Dati",
             "docenti": "Pulvirenti Ferro Giugno",
-            "prima": "31\/01\/2017",
-            "prima1": "28\/02\/2017",
-            "seconda": "12\/06\/2017",
-            "seconda1": "03\/07\/2017",
-            "terza": "08\/09\/2017",
-            "terza1": "05\/10\/2017",
-            "straordinaria": "27\/04\/2017",
-            "straordinaria1": "15\/12\/2017",
+            "prima": [
+                "05\/05\/2017",
+                "14\/12\/2017"
+            ],
+            "seconda": [
+                "31\/01\/2017",
+                "28\/02\/2017"
+            ],
+            "terza": [
+                "12\/06\/2017",
+                "03\/07\/2017"
+            ],
+            "straordinaria": [
+                "08\/09\/2017",
+                "05\/10\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Inglese",
             "docenti": "Saitta,Riccobene,Battiato",
-            "prima": "",
-            "prima1": "",
-            "seconda": "",
-            "seconda1": "",
-            "terza": "",
-            "terza1": "",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "27\/04\/2017",
+                "15\/12\/2017"
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "",
+                ""
+            ],
+            "straordinaria": [
+                "",
+                ""
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Reti di calcolatori",
             "docenti": "Riccobene,Pappalardo,Bella",
-            "prima": "01\/02\/2017",
-            "prima1": "20\/02\/2017",
-            "seconda": "15\/06\/2017",
-            "seconda1": "11\/07\/2017",
-            "terza": "15\/09\/2017",
-            "terza1": "26\/09\/2017",
-            "straordinaria": "25\/05\/2017",
-            "straordinaria1": "23\/11\/2017",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "01\/02\/2017",
+                "20\/02\/2017"
+            ],
+            "terza": [
+                "15\/06\/2017",
+                "11\/07\/2017"
+            ],
+            "straordinaria": [
+                "15\/09\/2017",
+                "26\/09\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Sistemi operativi",
             "docenti": "Di Raimondo,Faro,Catalano",
-            "prima": "13\/02\/2017",
-            "prima1": "06\/03\/2017",
-            "seconda": "03\/07\/2017",
-            "seconda1": "17\/07\/2017",
-            "terza": "11\/09\/2017",
-            "terza1": "25\/09\/2017",
-            "straordinaria": "09\/05\/2017",
-            "straordinaria1": "12\/12\/2017",
+            "prima": [
+                "25\/05\/2017",
+                "23\/11\/2017"
+            ],
+            "seconda": [
+                "13\/02\/2017",
+                "06\/03\/2017"
+            ],
+            "terza": [
+                "03\/07\/2017",
+                "17\/07\/2017"
+            ],
+            "straordinaria": [
+                "11\/09\/2017",
+                "25\/09\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Ingegneria del SW",
             "docenti": "Tramontana,Pappalardo,santoro",
-            "prima": "02\/02\/2017",
-            "prima1": "17\/02\/2017",
-            "seconda": "28\/06\/2017",
-            "seconda1": "14\/07\/2017",
-            "terza": "14\/09\/2017",
-            "terza1": "04\/10\/2017",
-            "straordinaria": "24\/05\/2017",
-            "straordinaria1": "28\/11\/2017",
+            "prima": [
+                "09\/05\/2017",
+                "12\/12\/2017"
+            ],
+            "seconda": [
+                "02\/02\/2017",
+                "17\/02\/2017"
+            ],
+            "terza": [
+                "28\/06\/2017",
+                "14\/07\/2017"
+            ],
+            "straordinaria": [
+                "14\/09\/2017",
+                "04\/10\/2017"
+            ],
             "anno": "Secondo anno"
         },
         {
             "insegnamento": "Metodi Matematici e statistici",
             "docenti": "Muscato,Majorana,Pidatella.",
-            "prima": "07\/02\/2017",
-            "prima1": "02\/03\/2017",
-            "seconda": "14\/06\/2017",
-            "seconda1": "11\/07\/2017",
-            "terza": "05\/09\/2017",
-            "terza1": "29\/09\/2017",
-            "straordinaria": "20\/04\/2017",
-            "straordinaria1": "05\/12\/2017",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "07\/02\/2017",
+                "02\/03\/2017"
+            ],
+            "terza": [
+                "14\/06\/2017",
+                "11\/07\/2017"
+            ],
+            "straordinaria": [
+                "05\/09\/2017",
+                "29\/09\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Tecniche di programmazione C.eD.",
             "docenti": "Pappalardo,Tramontana,Santoro",
-            "prima": "13\/02\/2017",
-            "prima1": "01\/03\/2017",
-            "seconda": "20\/06\/2017",
-            "seconda1": "10\/07\/2017",
-            "terza": "18\/09\/2017",
-            "terza1": "03\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "19\/12\/2017",
+            "prima": [
+                "20\/04\/2017",
+                "05\/12\/2017"
+            ],
+            "seconda": [
+                "13\/02\/2017",
+                "01\/03\/2017"
+            ],
+            "terza": [
+                "20\/06\/2017",
+                "10\/07\/2017"
+            ],
+            "straordinaria": [
+                "18\/09\/2017",
+                "03\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Introduzione al Data Mining",
             "docenti": "Pulvirenti,Ferro,Giugno",
-            "prima": "31\/01\/2017",
-            "prima1": "28\/02\/2017",
-            "seconda": "12\/06\/2017",
-            "seconda1": "03\/07\/2017",
-            "terza": "08\/09\/2017",
-            "terza1": "04\/10\/2017",
-            "straordinaria": "27\/04\/2017",
-            "straordinaria1": "15\/12\/2017",
+            "prima": [
+                "",
+                "19\/12\/2017"
+            ],
+            "seconda": [
+                "31\/01\/2017",
+                "28\/02\/2017"
+            ],
+            "terza": [
+                "12\/06\/2017",
+                "03\/07\/2017"
+            ],
+            "straordinaria": [
+                "08\/09\/2017",
+                "04\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Computer grafica",
             "docenti": "Gallo,Stanco,Battiato",
-            "prima": "02\/02\/2017",
-            "prima1": "09\/03\/2017",
-            "seconda": "15\/06\/2017",
-            "seconda1": "13\/07\/2017",
-            "terza": "11\/09\/2017",
-            "terza1": "05\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "19\/12\/2017",
+            "prima": [
+                "27\/04\/2017",
+                "15\/12\/2017"
+            ],
+            "seconda": [
+                "02\/02\/2017",
+                "09\/03\/2017"
+            ],
+            "terza": [
+                "15\/06\/2017",
+                "13\/07\/2017"
+            ],
+            "straordinaria": [
+                "11\/09\/2017",
+                "05\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Internet Security",
             "docenti": "Bella,Riccobene,Catalano",
-            "prima": "30\/01\/2017",
-            "prima1": "22\/02\/2017",
-            "seconda": "28\/06\/2017",
-            "seconda1": "20\/07\/2017",
-            "terza": "13\/09\/2017",
-            "terza1": "28\/09\/2017",
-            "straordinaria": "10\/04\/2017",
-            "straordinaria1": "01\/12\/2017",
+            "prima": [
+                "",
+                "19\/12\/2017"
+            ],
+            "seconda": [
+                "30\/01\/2017",
+                "22\/02\/2017"
+            ],
+            "terza": [
+                "28\/06\/2017",
+                "20\/07\/2017"
+            ],
+            "straordinaria": [
+                "13\/09\/2017",
+                "28\/09\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Fisica",
             "docenti": "Scordino",
-            "prima": "02\/02\/2017",
-            "prima1": "23\/02\/2017",
-            "seconda": "20\/06\/2017",
-            "seconda1": "12\/07\/2017",
-            "terza": "06\/09\/2017",
-            "terza1": "27\/09\/2017",
-            "straordinaria": "21\/04\/2017",
-            "straordinaria1": "01\/12\/2017",
+            "prima": [
+                "10\/04\/2017",
+                "01\/12\/2017"
+            ],
+            "seconda": [
+                "02\/02\/2017",
+                "23\/02\/2017"
+            ],
+            "terza": [
+                "20\/06\/2017",
+                "12\/07\/2017"
+            ],
+            "straordinaria": [
+                "06\/09\/2017",
+                "27\/09\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Calcolo numerico",
             "docenti": "",
-            "prima": "",
-            "prima1": "",
-            "seconda": "",
-            "seconda1": "",
-            "terza": "",
-            "terza1": "",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "21\/04\/2017",
+                "01\/12\/2017"
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "",
+                ""
+            ],
+            "straordinaria": [
+                "",
+                ""
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Sistemi centrali",
             "docenti": "",
-            "prima": "",
-            "prima1": "",
-            "seconda": "26\/06\/2017",
-            "seconda1": "24\/07\/2017",
-            "terza": "04\/09\/2017",
-            "terza1": "02\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "24\/11\/2017",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "26\/06\/2017",
+                "24\/07\/2017"
+            ],
+            "straordinaria": [
+                "04\/09\/2017",
+                "02\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "LAP 1",
             "docenti": "Santoro,Pappalardo,tramontana",
-            "prima": "13\/02\/2017",
-            "prima1": "08\/03\/2017",
-            "seconda": "14\/06\/2017",
-            "seconda1": "04\/07\/2017",
-            "terza": "14\/09\/2017",
-            "terza1": "03\/10\/2017",
-            "straordinaria": "28\/04\/2017",
-            "straordinaria1": "12\/12\/2017",
+            "prima": [
+                "",
+                "24\/11\/2017"
+            ],
+            "seconda": [
+                "13\/02\/2017",
+                "08\/03\/2017"
+            ],
+            "terza": [
+                "14\/06\/2017",
+                "04\/07\/2017"
+            ],
+            "straordinaria": [
+                "14\/09\/2017",
+                "03\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Computer forensic",
             "docenti": "Battiato,Gallo,Stanco",
-            "prima": "08\/02\/2017",
-            "prima1": "07\/03\/2017",
-            "seconda": "15\/06\/2017",
-            "seconda1": "24\/07\/2017",
-            "terza": "06\/09\/2017",
-            "terza1": "06\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "06\/12\/2017",
+            "prima": [
+                "28\/04\/2017",
+                "12\/12\/2017"
+            ],
+            "seconda": [
+                "08\/02\/2017",
+                "07\/03\/2017"
+            ],
+            "terza": [
+                "15\/06\/2017",
+                "24\/07\/2017"
+            ],
+            "straordinaria": [
+                "06\/09\/2017",
+                "06\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Sviluppo di giochi digitali",
             "docenti": "Gallo,Stanco,Battiato",
-            "prima": "09\/02\/2017",
-            "prima1": "01\/03\/2017",
-            "seconda": "21\/06\/2017",
-            "seconda1": "25\/07\/2017",
-            "terza": "07\/09\/2017",
-            "terza1": "03\/10\/2017",
-            "straordinaria": "05\/05\/2017",
-            "straordinaria1": "12\/12\/2017",
+            "prima": [
+                "",
+                "06\/12\/2017"
+            ],
+            "seconda": [
+                "09\/02\/2017",
+                "01\/03\/2017"
+            ],
+            "terza": [
+                "21\/06\/2017",
+                "25\/07\/2017"
+            ],
+            "straordinaria": [
+                "07\/09\/2017",
+                "03\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Lap II",
             "docenti": "Calanducci",
-            "prima": "",
-            "prima1": "",
-            "seconda": "",
-            "seconda1": "",
-            "terza": "",
-            "terza1": "",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "05\/05\/2017",
+                "12\/12\/2017"
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "",
+                ""
+            ],
+            "straordinaria": [
+                "",
+                ""
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Informatica musicale",
             "docenti": "Salfi,Barbanera,Giugno",
-            "prima": "",
-            "prima1": "",
-            "seconda": "",
-            "seconda1": "",
-            "terza": "",
-            "terza1": "",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "",
+                ""
+            ],
+            "terza": [
+                "",
+                ""
+            ],
+            "straordinaria": [
+                "",
+                ""
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Programmazione parallela GPU",
             "docenti": "Bilotta,Gallo,Battiato",
-            "prima": "06\/02\/2017",
-            "prima1": "03\/03\/2017",
-            "seconda": "16\/06\/2017",
-            "seconda1": "07\/07\/2017",
-            "terza": "12\/09\/2017",
-            "terza1": "04\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "06\/02\/2017",
+                "03\/03\/2017"
+            ],
+            "terza": [
+                "16\/06\/2017",
+                "07\/07\/2017"
+            ],
+            "straordinaria": [
+                "12\/09\/2017",
+                "04\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "StartUp di impresa e MdB",
             "docenti": "Basile",
-            "prima": "",
-            "prima1": "24\/02\/2017",
-            "seconda": "29\/06\/2017",
-            "seconda1": "",
-            "terza": "",
-            "terza1": "07\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "",
+                "24\/02\/2017"
+            ],
+            "terza": [
+                "29\/06\/2017",
+                ""
+            ],
+            "straordinaria": [
+                "",
+                "07\/10\/2017"
+            ],
             "anno": "Terzo anno"
         },
         {
             "insegnamento": "Social media management",
             "docenti": "Farinella,Stanco,Battiato",
-            "prima": "16\/02\/2017",
-            "prima1": "06\/03\/2017",
-            "seconda": "22\/06\/2017",
-            "seconda1": "05\/07\/2017",
-            "terza": "21\/09\/2017",
-            "terza1": "06\/10\/2017",
-            "straordinaria": "",
-            "straordinaria1": "",
+            "prima": [
+                "",
+                ""
+            ],
+            "seconda": [
+                "16\/02\/2017",
+                "06\/03\/2017"
+            ],
+            "terza": [
+                "22\/06\/2017",
+                "05\/07\/2017"
+            ],
+            "straordinaria": [
+                "21\/09\/2017",
+                "06\/10\/2017"
+            ],
             "anno": "Terzo anno"
         }
     ]
