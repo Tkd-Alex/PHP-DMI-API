@@ -15,6 +15,9 @@
     $dom = new DOMDocument;
     $dom->loadHTML($html);
 
+    // chiude la risorsa cURL e libera la memoria
+    curl_close($ch);
+
     return $dom;
   }
 ?>
