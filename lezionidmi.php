@@ -42,7 +42,7 @@
     $status = array("length" => sizeof($array), "lastupdate" => date("Y-m-d H:i:s"));
     $finalResult = array("status" => $status, "items" => $array);
 
-    print json_encode($finalResult,  JSON_PRETTY_PRINT);
+    print json_encode($finalResult, JSON_PRETTY_PRINT);
     createFolder('result');
     saveJSON('result', 'lezioni.json', $finalResult);
   }

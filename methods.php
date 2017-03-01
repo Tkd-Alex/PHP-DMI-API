@@ -1,4 +1,7 @@
 <?php
+  header('Content-Type: application/json');
+  header('Access-Control-Allow-Origin: *');
+
   function getDOM($link){
     libxml_use_internal_errors(true);
     $ch = curl_init();
@@ -18,7 +21,7 @@
 
   function saveJSON($folder, $filename, $content){
     $fh = fopen($folder . "/" . $filename, 'w+') or die("Can't open file");
-    $stringData = json_encode($content,  JSON_PRETTY_PRINT);
+    $stringData = json_encode($content, JSON_PRETTY_PRINT);
     fwrite($fh, $stringData);
     fclose($fh);
     chmod($folder . "/" . $filename, 0777);
@@ -27,7 +30,7 @@
   function createFolder($folder){
     if (!file_exists($folder))
       mkdir($folder);
-      
+
     chmod($folder, 0777);
   }
 ?>
