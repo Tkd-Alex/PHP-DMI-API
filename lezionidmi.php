@@ -4,57 +4,46 @@
 
   $link = "http://web.dmi.unict.it/Didattica/Laurea%20Triennale%20in%20Informatica%20L-31/Calendario%20delle%20Lezioni";
 
-  $xpath = new DOMXPath(getDom($link));
+  $xpath = new DOMXPath(getDOM($link));
   $results = $xpath->query("//tbody/tr");
 
-  //init array
   $array = array();
-  $i = 0;
-
-  $label = ["insegnamento","aula","lunedi","martedi","mercoledi","giovedi","venerdi"];
+  $labels = ["insegnamento","aula","lunedi","martedi","mercoledi","giovedi","venerdi"];
 
   if (!is_null($results)) {
     foreach ($results as $element) {
 
-      $subject = [];
-      $j = 0;
+      $singleObject = [];
+      $indexLabel = 0;
 
       $nodes = $element->childNodes;
       foreach ($nodes as $node) {
 
           if($node->nodeType == 1){
-
-            if (strpos(strtolower($node->nodeValue),'anno') !== false) {
+            if (strpos(strtolower($node->nodeValue),'anno') !== false)
               $currentYear = $node->nodeValue;
-            }
             else{
-              $subject[$label[$j]] = trim($node->nodeValue, chr(0xC2).chr(0xA0));
-              $j++;
+              $singleObject[$labels[$indexLabel]] = trim($node->nodeValue, chr(0xC2).chr(0xA0));
+              $indexLabel++;
             }
           }
 
       }
 
-      if( (count ((array)$subject) == sizeof($label)) && 
-          (!is_null($currentYear)) && 
-          (!empty($subject['insegnamento']))
-        ){
-        
-        $subject['anno'] = $currentYear;
-        array_push($array, $subject);
+      if( (count ((array)$singleObject) == sizeof($labels)) && (!is_null($currentYear)) && (!empty($singleObject['insegnamento'])) ){
+        $singleObject['anno'] = $currentYear;
+        array_push($array, $singleObject);
       }
-
-      $i++;
 
     }
   }
 
-  //Print the json
-  print json_encode($array);
+  if(sizeof($array) > 0){
+    $status = array("length" => sizeof($array), "lastupdate" => date("Y-m-d H:i:s"));
+    $finalResult = array("status" => $status, "items" => $array);
 
-  $fh = fopen('lezioni.json', 'w+') or die("can't open file");
-  $stringData = json_encode($array);
-  fwrite($fh, $stringData);
-  fclose($fh);
-
+    print json_encode($finalResult,  JSON_PRETTY_PRINT);
+    createFolder('result');
+    saveJSON('result', 'lezioni.json', $finalResult);
+  }
 ?>

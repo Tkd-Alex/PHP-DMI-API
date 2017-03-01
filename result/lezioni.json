@@ -1,0 +1,358 @@
+{
+    "status": {
+        "length": 35,
+        "lastupdate": "2017-03-01 12:01:13"
+    },
+    "items": [
+        {
+            "insegnamento": "Matematica Discreta",
+            "aula": "4",
+            "lunedi": "08;00 - 10:00",
+            "martedi": "",
+            "mercoledi": "08:00 - 10:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Programmazione 1 (A-L, M-Z)",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "10:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Inglese",
+            "aula": "4",
+            "lunedi": "15:00 - 17:00",
+            "martedi": "",
+            "mercoledi": "15:00 - 17:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Fondamenti di Informatica",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "15:00 - 18:00",
+            "mercoledi": "",
+            "giovedi": "15:00 - 18:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Laboratorio di Analisi Matematica",
+            "aula": "",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Laboratorio di Fondamenti di Informatica",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "10.00-13.00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Laboratorio di Programmazione 1 (dall' 8\/11)",
+            "aula": "",
+            "lunedi": "",
+            "martedi": "08.00-10.00",
+            "mercoledi": "",
+            "giovedi": "08.00-10.00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Corsi ZERO",
+            "aula": "",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Algoritmi",
+            "aula": "23",
+            "lunedi": "",
+            "martedi": "08:00 - 10:00",
+            "mercoledi": "08:00 - 10:00",
+            "giovedi": "08:00 - 10:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Basi di Dati",
+            "aula": "23",
+            "lunedi": "10:00 - 13:00",
+            "martedi": "",
+            "mercoledi": "10:00 - 13:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Interazione e Multimedia",
+            "aula": "23",
+            "lunedi": "",
+            "martedi": "10:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Fisica",
+            "aula": "2",
+            "lunedi": "11:00 - 13:00",
+            "martedi": "",
+            "mercoledi": "11:00 - 13:00",
+            "giovedi": "",
+            "venerdi": "11:00 - 13:00",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Informatica Musicale",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "15:00 - 17:00",
+            "venerdi": "17:00 - 19:00",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Int. Data Mining",
+            "aula": "2-36",
+            "lunedi": "15:00 - 17:00",
+            "martedi": "",
+            "mercoledi": "15:00 - 17:00",
+            "giovedi": "",
+            "venerdi": "08:00 - 10:00",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "LAP 1",
+            "aula": "2",
+            "lunedi": "09:00 - 11:00",
+            "martedi": "",
+            "mercoledi": "09:00 - 11:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "M. M. e Statistici",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "08:00 - 10:00",
+            "mercoledi": "",
+            "giovedi": "08:00 - 10:00",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Programmazione GPU",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "15:00 - 17:00",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "09:00 - 11:00",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Social Media Management",
+            "aula": "Archimede",
+            "lunedi": "17:00 - 19:00",
+            "martedi": "",
+            "mercoledi": "17:00 - 19:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "StartUp D'Impresa e Modelli di Business",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "17:00 - 19:00",
+            "mercoledi": "",
+            "giovedi": "17:00 - 19:00",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Tecniche di Prog. C. e D.",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "10:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Architettura degli Elaboratori",
+            "aula": "4",
+            "lunedi": "10:00 - 13:00",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Elementi di Analisi Matematica 1",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "11:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "08:00 - 10:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Matematica Discreta",
+            "aula": "4",
+            "lunedi": "08:00 - 10:00",
+            "martedi": "",
+            "mercoledi": "08:00 - 10:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Programmazione 2 A-L",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "15:00 - 18:00",
+            "mercoledi": "10:00 - 13:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Programmazione 2 M-Z",
+            "aula": "4",
+            "lunedi": "",
+            "martedi": "08:00 - 11:00",
+            "mercoledi": "",
+            "giovedi": "15:00 - 18:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Tutorato di Matematica",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "8.00-13.00",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Ingegneria del Software",
+            "aula": "2",
+            "lunedi": "10:00 - 13:00",
+            "martedi": "",
+            "mercoledi": "10:00 - 13:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Reti di Calcolatori",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "15:00 - 18:00",
+            "mercoledi": "",
+            "giovedi": "15:00 - 18:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Sistemi Operativi",
+            "aula": "2",
+            "lunedi": "",
+            "martedi": "10:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Computer Forensics",
+            "aula": "3",
+            "lunedi": "15-00 - 17-00",
+            "martedi": "",
+            "mercoledi": "15-00 - 17-00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Internet Secutiry",
+            "aula": "3",
+            "lunedi": "11-00 - 14-00",
+            "martedi": "",
+            "mercoledi": "11-00 - 14-00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Sviluppo di giochi digitali",
+            "aula": "lab.236",
+            "lunedi": "",
+            "martedi": "11-00 - 13-00",
+            "mercoledi": "",
+            "giovedi": "11-00 - 13-00",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "LAP 2",
+            "aula": "3",
+            "lunedi": "09-00 - 11-00",
+            "martedi": "",
+            "mercoledi": "11-00 - 13-00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Sistemi Centrali",
+            "aula": "3",
+            "lunedi": "17-00 - 19-00",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "17-00 - 19-00",
+            "anno": "Terzo Anno"
+        },
+        {
+            "insegnamento": "Computer Graphics",
+            "aula": "3",
+            "lunedi": "",
+            "martedi": "15-00 - 18-00",
+            "mercoledi": "",
+            "giovedi": "15-00 - 18-00",
+            "venerdi": "",
+            "anno": "Terzo Anno"
+        }
+    ]
+}

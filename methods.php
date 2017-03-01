@@ -1,23 +1,33 @@
 <?php
-  function getDom($link){
+  function getDOM($link){
     libxml_use_internal_errors(true);
-
-    // crea una nuova risorsa cURL
     $ch = curl_init();
 
-    // imposta l'URL e altre opzioni appropriate
     curl_setopt($ch, CURLOPT_URL, $link);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    // recupera l'URL e lo passa al browser
     $html = curl_exec($ch);
 
     $dom = new DOMDocument;
     $dom->loadHTML($html);
 
-    // chiude la risorsa cURL e libera la memoria
     curl_close($ch);
 
     return $dom;
+  }
+
+  function saveJSON($folder, $filename, $content){
+    $fh = fopen($folder . "/" . $filename, 'w+') or die("Can't open file");
+    $stringData = json_encode($content,  JSON_PRETTY_PRINT);
+    fwrite($fh, $stringData);
+    fclose($fh);
+    chmod($folder . "/" . $filename, 0777);
+  }
+
+  function createFolder($folder){
+    if (!file_exists($folder))
+      mkdir($folder);
+      
+    chmod($folder, 0777);
   }
 ?>
