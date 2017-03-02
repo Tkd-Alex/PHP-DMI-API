@@ -44,6 +44,6 @@
 
     print json_encode($finalResult, JSON_PRETTY_PRINT);
     createFolder('result');
-    saveJSON('result', 'lezioni.json', $finalResult);
+    saveJSON('result', 'lezioni_dmi.json', $finalResult);
   }
 ?>

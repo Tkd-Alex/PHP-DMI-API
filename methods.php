@@ -33,4 +33,8 @@
 
     chmod($folder, 0777);
   }
+
+  function trimRemoveTab($string){
+    return trim(str_replace("\t","", $string), chr(0xC2).chr(0xA0));
+  }
 ?>

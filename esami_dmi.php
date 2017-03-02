@@ -33,10 +33,10 @@
                   $childs = $node->childNodes;
                   foreach ($childs as $child)
                      if($child->tagName == "span")
-                       array_push($tmpInfo, trim(str_replace("\t","", $child->nodeValue), chr(0xC2).chr(0xA0)) );
+                       array_push($tmpInfo, trimRemoveTab($child->nodeValue));
 
                   if( strstr($tmpInfo[0], "\n") ){
-                    $docenti_materia = explode("\n", trim(str_replace("\t","", $tmpInfo[0]), chr(0xC2).chr(0xA0)) );
+                    $docenti_materia = explode("\n", trimRemoveTab($tmpInfo[0]) );
                     $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
                     $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
                   }else{
@@ -46,34 +46,19 @@
                    else $singleObject["docenti"] = "";
                  }
                 }else{
-                  $docenti_materia = explode("\n", trim(str_replace("\t","", $node->nodeValue), chr(0xC2).chr(0xA0)) );
+                  $docenti_materia = explode("\n", trimRemoveTab($node->nodeValue) );
                   $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
                   $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
                 }
               }
               else{
 
-                //$singleObject[$labels[$indexLabel]] = trim(str_replace("\t","", $node->nodeValue), chr(0xC2).chr(0xA0));
+                array_push($session, trimRemoveTab($node->nodeValue) );
                 if(sizeof($session) > 1){
                   $singleObject[$labels[$indexLabel]] = $session;
                   $indexLabel++;
                   $session = [];
                 }
-                //if(sizeof($session) > 1) print_r($session);
-                //if(sizeof($session) > 1) $session = [];
-                array_push($session, trim( str_replace("\t","", $node->nodeValue) , chr(0xC2).chr(0xA0) ) );
-                //$indexLabel++;
-
-
-                //echo "Session size: ".sizeof($session)."\n";
-
-                /*if(sizeof($session) < 1){
-                  array_push($session, trim( str_replace("\t","", $node->nodeValue) , chr(0xC2).chr(0xA0) ) );
-                }else{
-                  $singleObject[$labels[$indexLabel]] = $session;
-                  $indexLabel++;
-                  $session = [];
-                }*/
 
               }
             }
@@ -95,7 +80,7 @@
 
     print json_encode($finalResult, JSON_PRETTY_PRINT);
     createFolder('result');
-    saveJSON('result', 'esamidmi.json', $finalResult);
+    saveJSON('result', 'esami_dmi.json', $finalResult);
   }
 
 ?>
