@@ -32,23 +32,27 @@
                   $tmpInfo = [];
                   $childs = $node->childNodes;
                   foreach ($childs as $child)
-                     if($child->tagName == "span")
+                     if(isset($child->tagName) && $child->tagName == "span")
                        array_push($tmpInfo, trimRemoveTab($child->nodeValue));
 
                   if( strstr($tmpInfo[0], "\n") ){
                     $docenti_materia = explode("\n", trimRemoveTab($tmpInfo[0]) );
-                    $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
-                    $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
+                    if(isset($docenti_materia[0]))
+                      $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
+                    if(isset($docenti_materia[1]))
+                      $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
                   }else{
-                   if($tmpInfo[0]) $singleObject["insegnamento"] = $tmpInfo[0];
+                   if(isset($tmpInfo[0])) $singleObject["insegnamento"] = $tmpInfo[0];
                    else $singleObject["insegnamento"] = "";
-                   if($tmpInfo[1]) $singleObject["docenti"] = $tmpInfo[1];
+                   if(isset($tmpInfo[1])) $singleObject["docenti"] = $tmpInfo[1];
                    else $singleObject["docenti"] = "";
                  }
                 }else{
                   $docenti_materia = explode("\n", trimRemoveTab($node->nodeValue) );
-                  $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
-                  $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
+                  if(isset($docenti_materia[0]))
+                    $singleObject["insegnamento"] = trim($docenti_materia[0], chr(0xC2).chr(0xA0) );
+                  if(isset($docenti_materia[1]))
+                    $singleObject["docenti"] = trim($docenti_materia[1], chr(0xC2).chr(0xA0) );
                 }
               }
               else{

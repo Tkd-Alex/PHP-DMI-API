@@ -24,14 +24,14 @@
     $stringData = json_encode($content, JSON_PRETTY_PRINT);
     fwrite($fh, $stringData);
     fclose($fh);
-    chmod($folder . "/" . $filename, 0777);
+    //chmod($folder . "/" . $filename, 0777);
   }
 
   function createFolder($folder){
     if (!file_exists($folder))
       mkdir($folder);
 
-    chmod($folder, 0777);
+    //chmod($folder, 0777);
   }
 
   function trimRemoveTab($string){
