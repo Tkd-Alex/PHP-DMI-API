@@ -5,7 +5,12 @@
   $link = "http://web.dmi.unict.it/Didattica/Laurea%20Triennale%20in%20Informatica%20L-31/Calendario%20delle%20Lezioni";
 
   $xpath = new DOMXPath(getDOM($link));
-  $results = $xpath->query("//tbody/tr");
+
+  $meseAttuale = date('m');
+
+  $semestre = ($meseAttuale > 2 && $meseAttuale < 9) ? 2 : 1;
+
+  $results = $xpath->query("((//tbody)[$semestre])/tr");
 
   $array = array();
   $labels = ["insegnamento","aula","lunedi","martedi","mercoledi","giovedi","venerdi"];
