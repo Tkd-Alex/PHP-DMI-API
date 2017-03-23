@@ -1,0 +1,138 @@
+{
+    "status": {
+        "length": 13,
+        "lastupdate": "2017-03-23 14:39:11"
+    },
+    "items": [
+        {
+            "insegnamento": "Tech. for adv. programming",
+            "aula": "Lab.Archim.",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "15:00 - 18:00",
+            "giovedi": "15:00 - 18:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Computazione naturale",
+            "aula": "22",
+            "lunedi": "",
+            "martedi": "",
+            "mercoledi": "15:00 - 17:00",
+            "giovedi": "",
+            "venerdi": "11:00 - 13:00",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Big Data",
+            "aula": "22-24",
+            "lunedi": "15:00 - 17:00",
+            "martedi": "",
+            "mercoledi": "",
+            "giovedi": "",
+            "venerdi": "10:00 - 12:00",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Sistemi Robotici",
+            "aula": "24",
+            "lunedi": "",
+            "martedi": "14:00 - 17:00",
+            "mercoledi": "",
+            "giovedi": "14:00 - 17:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Computer Security",
+            "aula": "24",
+            "lunedi": "14:00 - 17:00",
+            "martedi": "",
+            "mercoledi": "14:00 - 17:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Computer Vision",
+            "aula": "24",
+            "lunedi": "",
+            "martedi": "10:00 - 12:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 12:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Analisi Numerica",
+            "aula": "24",
+            "lunedi": "",
+            "martedi": "08:00 - 10:00",
+            "mercoledi": "",
+            "giovedi": "08:00 - 10:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Fond. e Linguaggi per la P.D.",
+            "aula": "24",
+            "lunedi": "17:00 - 19:00",
+            "martedi": "",
+            "mercoledi": "17:00 - 19:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Intelligenza Artificiale",
+            "aula": "22",
+            "lunedi": "09:00 - 11:00",
+            "martedi": "",
+            "mercoledi": "09:00 - 11:00",
+            "giovedi": "",
+            "venerdi": "09:00 - 11:00",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Machine Learning",
+            "aula": "24",
+            "lunedi": "",
+            "martedi": "17:00 - 19:00",
+            "mercoledi": "",
+            "giovedi": "17:00 - 19:00",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Sistemi Distribuiti 1",
+            "aula": "24",
+            "lunedi": "10:00 - 13:00",
+            "martedi": "",
+            "mercoledi": "10:00 - 13:00",
+            "giovedi": "",
+            "venerdi": "",
+            "anno": "Primo Anno"
+        },
+        {
+            "insegnamento": "Web Reasoning",
+            "aula": "22",
+            "lunedi": "",
+            "martedi": "15:00 - 18.00",
+            "mercoledi": "",
+            "giovedi": "15:00 - 18:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        },
+        {
+            "insegnamento": "Sistemi Distribuiti 2",
+            "aula": "22",
+            "lunedi": "",
+            "martedi": "10:00 - 13:00",
+            "mercoledi": "",
+            "giovedi": "10:00 - 13:00",
+            "venerdi": "",
+            "anno": "Secondo Anno"
+        }
+    ]
+}
